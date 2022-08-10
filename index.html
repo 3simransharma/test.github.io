@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
     
-    <script>const curryear = new Date().getFullYear();</script>
+    <script>document.getElementById("yr").value(new Date().getFullYear());</script>
 <body>
     <h1>Hello this is test.</h1>
-    <footer style = "text-align:center;"><small>&copy; Copyright {{curryear}} Simran Sharma, All rights reserved. </small></footer>
+    <footer style = "text-align:center;"><small>&copy; Copyright <span id = "yr"></span> Simran Sharma, All rights reserved. </small></footer>
 </body>
 </html>
